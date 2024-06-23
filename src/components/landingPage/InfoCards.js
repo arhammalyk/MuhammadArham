@@ -4,10 +4,10 @@ function InfoCards() {
   return (
     <>
       <div className="bg-white">
-        <div className="w-full bg-white p-14 mx-auto md:max-w-4xl lg:max-w-6xl xl:max-w-screen-2xl lg:flex lg:space-x-5">
+        <div className="w-full bg-white p-8 md:p-14 mx-auto md:max-w-4xl lg:max-w-6xl xl:max-w-screen-2xl lg:flex lg:space-x-5">
           {/* EDUCATION CARD */}
           <div
-            className="lg:w-1/2 bg-white text-gray-600 w-10/12 mx-auto rounded-sm shadow-xl p-9  md:mb-7 lg:mb-0
+            className="lg:w-1/2 bg-white text-gray-600 w-10/12 mx-auto rounded-sm shadow-xl p-6 md:p-9  md:mb-7 lg:mb-0
         "
           >
             <div className="w-10/12 mx-auto">

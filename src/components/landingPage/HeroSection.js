@@ -34,7 +34,7 @@ function HeroSection() {
               <img src={arham} alt="heroImg" />
             </div>
             <div className="w-full bg-gradient-tobl bg-gradient-to-l from-black to-black lg:w-1/2 md:flex md:justify-center md:items-center">
-              <div className="text-white w-9/12 p-12 ">
+              <div className="text-white w-9/12 p-6 md:p-12 ">
                 <h1 className="lg:text-xl xl:text-3xl font-bold">
                   ACHIEVE TRUE GREATNESS
                 </h1>

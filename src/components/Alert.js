@@ -21,7 +21,7 @@ function Alert() {
             exit="exit"
             variants={variants}
             transition={{ type: "spring", stiffness: 800, damping: 30 }}
-            className={`z-10 fixed right-20 top-20 ${
+            className={`z-10 fixed right-10 md:right-20 top-20 ${
               alert.type === "success" ? "bg-green-600" : "bg-red-600"
             } text-white shadow-lg rounded-lg`}
           >
