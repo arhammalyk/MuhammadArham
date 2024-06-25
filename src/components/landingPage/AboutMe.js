@@ -21,10 +21,10 @@ function AboutMe() {
             </h1>
             <p className="text-xl text-gray-600">
               I hold a degree in Computer Science and have 1 years of experience
-              in web development. Currently, I'm working as an Associate
-              Software Engineer, where I contribute to various projects using
-              the MERN stack. and collaborated with talented people to create
-              digital products for both business and consumer use. I'm quietly
+              in web development. Currently, I'm working as an Software
+              Engineer, where I contribute to various projects using the MERN
+              stack. and collaborated with talented people to create digital
+              products for both business and consumer use. I'm quietly
               confident, naturally curious, and perpetually working on improving
               my chops.
             </p>

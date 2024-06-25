@@ -43,7 +43,7 @@ function HeroSection() {
                   MUHAMMAD ARHAM - MERN Stack Developer
                 </h2>
                 <h3 className="lg:text-lg">
-                  I'm an Associate Software Engineer specializing in the MERN
+                  I'm an Software Engineer specializing in the MERN
                   stack, I am eager to dedicate my life to transforming lives
                   through innovation.
                 </h3>
