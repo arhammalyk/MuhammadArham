@@ -18,7 +18,7 @@ function MyWork() {
 
   const initialAnimation = {
     scale: 1,
-    opacity: 0,
+    opacity: 1,
   };
   const animationOptions = {
     duration: 1.5,
@@ -55,7 +55,7 @@ function MyWork() {
               inView && !hasAnimated ? animateOnceInView : initialAnimation
             }
             transition={animationOptions}
-            className="bg-gradient-to-tl from-black to-blue-300 relative w-11/12 lg:w-1/4 m-auto rounded-3xl overflow-hidden transition-all 
+            className="bg-gradient-to-tl from-black to-blue-300 relative w-11/12 lg:w-1/4 m-auto rounded-sm overflow-hidden transition-all 
             duration-300 hover:bg-cover hover:bg-center"
             // style={{ backgroundImage: `url(${img})` }}
           >
@@ -91,7 +91,7 @@ function MyWork() {
               inView && !hasAnimated ? animateOnceInView : initialAnimation
             }
             transition={animationOptions}
-            className="relative w-11/12 lg:w-1/4 bg-gradient-to-br from-[#DDDDDD] to-black m-auto rounded-3xl overflow-hidden transition-all 
+            className="relative w-11/12 lg:w-1/4 bg-gradient-to-br from-[#DDDDDD] to-black m-auto rounded-sm overflow-hidden transition-all 
             duration-300 hover:bg-cover hover:bg-center"
             // style={{ backgroundImage: `url(${img2})` }}
           >
@@ -127,7 +127,7 @@ function MyWork() {
               inView && !hasAnimated ? animateOnceInView : initialAnimation
             }
             transition={animationOptions}
-            className="relative w-11/12 lg:w-1/4 bg-gradient-to-br from-white to-black   m-auto rounded-3xl overflow-hidden transition-all 
+            className="relative w-11/12 lg:w-1/4 bg-gradient-to-br from-white to-black   m-auto rounded-sm overflow-hidden transition-all 
             duration-300 hover:bg-cover hover:bg-center"
             // style={{ backgroundImage: `url(${img3})` }}
           >
@@ -167,7 +167,7 @@ function MyWork() {
               inView && !hasAnimated ? animateOnceInView : initialAnimation
             }
             transition={animationOptions}
-            className="bg-gradient-to-tl from-black to-[#7FDBFF] relative w-11/12 lg:w-1/4 m-auto rounded-3xl overflow-hidden transition-all 
+            className="bg-gradient-to-tl from-black to-[#7FDBFF] relative w-11/12 lg:w-1/4 m-auto rounded-sm overflow-hidden transition-all 
             duration-300 hover:bg-cover hover:bg-center"
             // style={{ backgroundImage: `url(${img})` }}
           >
@@ -204,7 +204,7 @@ function MyWork() {
               inView && !hasAnimated ? animateOnceInView : initialAnimation
             }
             transition={animationOptions}
-            className="relative w-11/12 lg:w-1/4 bg-gradient-to-br from-[#DDDDDD] to-black m-auto rounded-3xl overflow-hidden transition-all 
+            className="relative w-11/12 lg:w-1/4 bg-gradient-to-br from-[#DDDDDD] to-black m-auto rounded-sm overflow-hidden transition-all 
             duration-300 hover:bg-cover hover:bg-center"
             // style={{ backgroundImage: `url(${img2})` }}
           >
@@ -240,7 +240,7 @@ function MyWork() {
               inView && !hasAnimated ? animateOnceInView : initialAnimation
             }
             transition={animationOptions}
-            className="relative w-11/12 lg:w-1/4 bg-gradient-to-br from-white to-black   m-auto rounded-3xl overflow-hidden transition-all 
+            className="relative w-11/12 lg:w-1/4 bg-gradient-to-br from-white to-black   m-auto rounded-sm overflow-hidden transition-all 
             duration-300 hover:bg-cover hover:bg-center"
             // style={{ backgroundImage: `url(${img3})` }}
           >
